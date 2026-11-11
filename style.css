@@ -36,7 +36,7 @@
 .left{
 
     height: 80%;
-    width: 80%;
+    width: 100%;
     /* border: 1px solid black; */
 }
 .right{
@@ -44,7 +44,7 @@
 }
 
 .h1{
-
+    margin-left: 10px;
     font-size:1px;
     color: white;
 }
@@ -71,10 +71,17 @@ a{
     color: white;
     
 }
+.b1{
+
+    font-size: 15px;
+    width: 120px;
+    margin-left: 10px;
+}
 
 .b2{
-
+     font-size: 15px;
     margin-left: 15px;
+      width: 120px;
 }
 
 .center{
@@ -265,4 +272,29 @@ span{
 .footer-social,.footer-bottom{
 
     text-align: center;
+}
+
+
+@media (min-width : 768px)  {
+
+
+.hero-section{
+
+    height: 15%;
+}
+
+
+    .left{
+        width: 60%;
+    }
+    
+    .right{
+
+        display: inline;
+        width: 50%;
+        height: 80%;
+      
+       
+    }
+
 }
