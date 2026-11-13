@@ -242,7 +242,7 @@ a {
     color: #15151A;
 }
 
-.ancar{
+.ancar {
     font-size: 20px;
     font-weight: 700;
     color: #FF263D;
@@ -374,21 +374,11 @@ a {
     background-color: #F04452;
 }
 
-
-
-
-
 .donation-gide {
 
     font-size: 15px;
 
 }
-
-
-
-
-
-
 
 .become-doner {
 
@@ -639,8 +629,6 @@ a {
 
 }
 
-
-
 @media (min-width : 1024px) {
 
     .hero-section {
@@ -660,6 +648,121 @@ a {
 
         height: 20%;
     }
+
+
+
+
+}
+
+/* ABOUT-SECTION*/
+.box-1{
+
+
+    height: 100vh;
+    width: 100%;
+    border: 1px solid black;
+   
+}
+
+.top-box{
+
+    height: 50%;
+    width: 100%;
+    border: 1px solid black;
+    background-image: url("Aseats/Smiles\ That\ Save\ Lives.png");
+    background-size: cover;
+}
+
+.bootem-box{
+
+    height:50%;
+    width: 100%;
+    border: 1px solid black;
+
+}
+
+.about-content{
+
+    text-align: center;
+    background-color: #101014;
+    color: #FFFFFF;
+
+}
+
+.about-tag{
+
+    color: #F04452;
+    font-size: 20px;
+    font-weight:700;
+    margin-top: 20px;
+
+    
+
+}
+
+.life-11{
+
+    font-size: 40px;
+    color: #FF263D;
+}
+
+.about-para{
+
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.about-btn{
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    background-color: #F04452;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+
+@media (min-width :768px) {
+    
+       .about-content{
+
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       }
+       
+       .about-para{
+
+        font-size: 30px;
+       }
+       
+
+       
+}
+
+
+@media (min-width :1024px) {
+
+    .box-1{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #101014;
+    
+    }
+
+    .top-box{
+
+        height: 90%; 
+
+    }
+
+     .about-para{
+
+        font-size: 20px;
+     }
 
 
 
