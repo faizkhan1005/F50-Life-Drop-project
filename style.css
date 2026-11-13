@@ -1,16 +1,17 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.p1{
+.p1 {
 
     height: 400vh;
     width: 100%;
     /* background-color: #080808; */
 }
-.c1{
+
+.c1 {
 
     background-color: #080808;
     color: white;
@@ -20,7 +21,7 @@
 
 }
 
-.hero-section{
+.hero-section {
 
     height: 10%;
     width: 100%;
@@ -30,85 +31,190 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
-.left{
+.left {
 
     height: 80%;
     width: 100%;
     /* border: 1px solid black; */
 }
-.right{
+
+.right {
     display: none;
 }
 
-.h1{
+.h1 {
     margin-left: 10px;
-    font-size:1px;
+    font-size: 1px;
     color: white;
 }
-.h2{
-   width: 60%;
-   margin-left:  100px; 
-   color: rgb(126, 5, 5);
+
+.h2 {
+    width: 60%;
+    margin-left: 100px;
+    color: rgb(126, 5, 5);
 }
 
-.pa{
-    font-family:cursive;
+.pa {
+    font-family: cursive;
     text-align: center;
     color: white;
 }
 
-.button :hover{
+.button :hover {
 
     background-color: rgb(19, 1, 1);
     color: white;
 
+}
+
+a {
+    color: white;
+
 
 }
-a{
-    color: white;
-    
-}
-.b1{
+
+.b1 {
 
     font-size: 15px;
     width: 120px;
     margin-left: 10px;
 }
 
-.b2{
-     font-size: 15px;
+.b2 {
+    font-size: 15px;
     margin-left: 15px;
-      width: 120px;
+    width: 120px;
 }
 
-.center{
+.center {
 
     background-color: #080808;
     height: 20%;
 }
 
-.cange-color{
+.cange-color {
 
     background-color: #160509;
 }
 
 
-.contect-1{
+.contect-1 {
 
     font-size: 30px;
     color: #F04452;
 }
 
-.contect-info{
+.contect-info {
 
     font-size: 15px;
     font-weight: 700;
 }
 
-.about-sec{
+
+/* WHY LIFEDROP */
+
+.about-life {
+    background: #101014;
+    padding: 100px 0;
+}
+
+/* HEADING */
+
+.about-heading {
+    margin-bottom: 60px 0;
+}
+
+.section-tag {
+    color: #FF263D;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.about-heading h2 {
+    color: #FFFFFF;
+    font-size: 42px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.about-heading h2 span {
+    color: #FF263D;
+}
+
+.about-heading p {
+    color: #BDBDC5;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+/* CARDS */
+
+.about-card {
+    background: linear-gradient(145deg, #19191F, #101014);
+    border: 1px solid #292930;
+    border-radius: 20px;
+    padding: 35px 30px;
+    min-height: 270px;
+    transition: 0.4s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.about-card:hover {
+    transform: translateY(-10px);
+    border-color: #FF263D;
+    box-shadow: 0 15px 35px rgba(255, 38, 61, 0.15);
+}
+
+/* ICON */
+
+.about-icon {
+    width: 65px;
+    height: 65px;
+    background: rgba(255, 38, 61, 0.12);
+    border: 1px solid rgba(255, 38, 61, 0.3);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.about-icon i {
+    color: #FF263D;
+    font-size: 30px;
+    transition: 0.3s;
+}
+
+.about-card:hover .about-icon i {
+    transform: scale(1.15);
+}
+
+/* TEXT */
+
+.about-card h3 {
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.about-card p {
+    color: #BDBDC5;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+
+
+/* ABOUT-SECTION */
+
+.about-sec {
 
 
     height: 10%;
@@ -124,34 +230,102 @@ a{
 
 }
 
-.a1{
+.Main-heding {
 
-   margin:20px ;  
-    
+    margin: 30px;
+
 }
 
-.para{
+.About-para {
     font-size: 15px;
     text-align: center;
     color: #15151A;
 }
 
 .ancar{
-
-    color: #F04452;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FF263D;
 }
 
 
-.Our-impact{
+/* OUR IMPACT SECTION */
 
-    background-color: #3f2b2c;
+.our-impact {
+    background: #080808;
+    padding: 100px 0;
+}
+
+/* HEADING */
+
+.impact-heading {
+    color: #FFFFFF;
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.impact-heading span {
+    color: #FF263D;
+}
+
+.impact-para {
+    color: #BDBDC5;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 55px;
+}
+
+/* IMPACT CARD */
+
+.impact-card {
+    background: linear-gradient(145deg, #19191F, #101014);
+    border: 1px solid #292930;
+    border-radius: 20px;
+    padding: 35px 20px;
+    min-height: 230px;
+    text-align: center;
+    transition: 0.4s ease;
+}
+
+.impact-card:hover {
+    transform: translateY(-10px);
+    border-color: #FF263D;
+    box-shadow: 0 15px 35px rgba(255, 38, 61, 0.15);
+}
+
+/* ICON */
+
+.impact-icon {
+    color: #FF263D;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+/* NUMBER */
+
+.impact-card h3 {
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+/* TEXT */
+
+.impact-card p:last-child {
+    color: #BDBDC5;
+    font-size: 15px;
+    margin-bottom: 0;
 }
 
 
 
-section{
 
-  
+
+.Our-servies {
+
+
     width: 100%;
     text-align: center;
     margin-top: 10px;
@@ -160,68 +334,63 @@ section{
     color: white;
     padding: 10px;
 }
-.si{
+
+.Our-servies span {
+
+    color: #F04452;
+}
+
+.Our-card {
+    background: linear-gradient(145deg, #19191F, #101014);
+    border: 1px solid #292930;
+    border-radius: 20px;
+    padding: 35px 30px;
+    min-height: 270px;
+    transition: 0.4s ease;
+    position: relative;
+
+
+}
+
+
+.Our-card:hover {
+    transform: translateY(-10px);
+    border-color: #FF263D;
+    box-shadow: 0 15px 35px rgba(255, 38, 61, 0.15);
+}
+
+.our-icon {
+
+    color: #FF263D;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.si {
     margin-top: 10px;
     font-size: 20px;
     border: 1px solid black;
     border-radius: 20px;
     background-color: #F04452;
 }
-span{
-
-    color: #F04452;
-}
-.li{
-
-    font-size: 15px;
-
-}
-
-.se{
-
-    font-size: 15px;
-}
-
-.hard{
-
-    font-size: 30px;
-    color: #F04452;
-    margin-top: 10px;
-}
-
-.donation{
-    font-size: 20px;
-    font-weight: 700;
-}
 
 
-.donation-gide{
+
+
+
+.donation-gide {
 
     font-size: 15px;
 
 }
-.c-1{
-
-    background-color: #15151A;
-}
-
-.c-2{
-
-    background-color: #251e1e;
-    
-    
-}
-.o-1{
-
-    color: white;
-    font-family:cursive;
-    font-size: 10px;
-}
 
 
 
 
-.become-doner{
+
+
+
+.become-doner {
 
     height: 10%;
     width: 100%;
@@ -232,11 +401,11 @@ span{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  
+
 }
 
 
-.para-1{
+.para-1 {
 
     font-size: 20px;
     color: white;
@@ -248,7 +417,7 @@ span{
 
 
 
-.lifedrop-footer{
+.lifedrop-footer {
     height: 30%;
     background-color: #160509;
     background-color: #080808;
@@ -257,44 +426,242 @@ span{
 }
 
 
-.save-tag{
+.save-tag {
 
 
     font-family: cursive;
 }
 
-.q-1{
+.q-1 {
 
     margin-left: 20px;
 }
 
 
-.footer-social,.footer-bottom{
+.footer-social,
+.footer-bottom {
 
     text-align: center;
 }
 
+/* HOW IT WORKS SECTION */
 
-@media (min-width : 768px)  {
+.how-it-works {
+    background: #101014;
+    padding: 100px 0;
+}
 
+/* HEADING */
 
-.hero-section{
+.work-heading {
+    margin-bottom: 60px;
+}
 
-    height: 15%;
+.section-tag {
+    color: #FF263D;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.work-heading h2 {
+    color: #FFFFFF;
+    font-size: 42px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.work-heading h2 span {
+    color: #FF263D;
+}
+
+.work-heading p {
+    color: #BDBDC5;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+/* CARDS */
+
+.work-card {
+    background: linear-gradient(145deg, #19191F, #101014);
+    border: 1px solid #292930;
+    border-radius: 20px;
+    padding: 35px 30px;
+    min-height: 330px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.4s ease;
+}
+
+.work-card:hover {
+    transform: translateY(-12px);
+    border-color: #FF263D;
+    box-shadow: 0 15px 35px rgba(255, 38, 61, 0.15);
+}
+
+/* ICON */
+
+.work-icon {
+    width: 65px;
+    height: 65px;
+    background: rgba(255, 38, 61, 0.12);
+    border: 1px solid rgba(255, 38, 61, 0.3);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.work-icon i {
+    color: #FF263D;
+    font-size: 30px;
+}
+
+/* STEP NUMBER */
+
+.step-number {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: rgba(255, 38, 61, 0.25);
+    font-size: 35px;
+    font-weight: 800;
+}
+
+/* CARD CONTENT */
+
+.work-card h3 {
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.work-card p {
+    color: #BDBDC5;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+.work-card a {
+    color: #FF263D;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.work-card a:hover {
+    color: #FFFFFF;
+}
+
+.work-card a i {
+    margin-left: 6px;
 }
 
 
-    .left{
-        width: 60%;
+
+
+
+
+@media (min-width : 768px) {
+
+
+    .about-life {
+        padding: 75px 0;
     }
-    
-    .right{
+
+    .about-heading h2 {
+        font-size: 34px;
+    }
+
+    .about-card {
+        min-height: 250px;
+    }
+
+    .hero-section {
+
+        height: 10%;
+        background-image: url("Aseats/Tab&Lap-hero-image.png");
+        background-size: cover;
+    }
+
+
+    .left {
+        width: 70%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .right {
 
         display: inline;
         width: 50%;
         height: 80%;
-      
-       
+
+
     }
+
+    .k1 {
+        display: none;
+    }
+
+    .how-it-works {
+        padding: 75px 0;
+    }
+
+    .work-heading h2 {
+        font-size: 34px;
+    }
+
+    .work-card {
+        min-height: 310px;
+    }
+
+    .our-impact {
+        padding: 60px 0;
+    }
+
+    .impact-heading {
+        font-size: 28px;
+    }
+
+    .impact-card {
+        min-height: 200px;
+    }
+
+}
+
+
+
+@media (min-width : 1024px) {
+
+    .hero-section {
+
+        height: 20%;
+    }
+
+    .our-impact {
+        padding: 75px 0;
+    }
+
+    .impact-heading {
+        font-size: 34px;
+    }
+
+    .about-sec {
+
+        height: 20%;
+    }
+
+
+
 
 }
